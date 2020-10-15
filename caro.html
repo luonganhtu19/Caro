@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Caro</title>
+
+
+
+</head>
+<style>
+    td{
+        border: 1px solid black;
+        text-align: center;
+        font-size: 25px;
+        width: 50px;
+        height: 50px;
+    }
+</style>
+<body>
+<!--// Creater table-->
+<form >
+    <fieldset style="display: inline-block" >
+        <legend>Game Caro</legend>
+        <input type="number" id="row" value="10">
+        <input type="number"  id="col" value="10">
+   <!--         <button onclick="createTable()">Create</button>-->
+    <input type="button" onclick="createTable()" value="Create">
+        <table id="board" border="1px">
+        </table>
+    </fieldset>
+</form>
+</body>
+<script src="checkCaro-ij.js"></script>
+<!--<script src="CheckCaro-table.js"></script>-->
+</html>
